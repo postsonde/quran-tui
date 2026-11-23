@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quran-tui"
+version = "0.1.0"
+description = "A sleek terminal user interface (TUI) for reading and studying the Holy Quran with side-by-side translation comparison."
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+requires-python = ">=3.10"
+authors = [
+    { name = "postsonde" }
+]
+keywords = ["quran", "kuran", "islam", "tui", "terminal", "textual", "cli"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Topic :: Religion",
+]
+dependencies = [
+    "textual>=0.70.0",
+    "httpx>=0.27.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/postsonde/quran-tui"
+Repository = "https://github.com/postsonde/quran-tui"
+Issues = "https://github.com/postsonde/quran-tui/issues"
+
+[project.scripts]
+quran = "quran_tui:main"
+
+[tool.setuptools]
+py-modules = ["quran_tui"]
