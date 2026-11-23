@@ -1,11 +1,8 @@
 # ☪ Kuran-ı Kerim TUI
 
-![Quran TUI Screenshot](screenshot.png)
-
-![Quran TUI Comparison View](screenshot2.png)
-
-![Quran TUI Go to Verse](screenshot3.png)
-
+<p align="center">
+  <img src="screenshot_kuran.gif" alt="QURAN Terminal Suite Demo" width="85%" />
+</p>
 A terminal user interface (TUI) for reading the Holy Quran, built with [Textual](https://textualize.io) and the **Dracula** theme.
 
 ## ✨ Key Features
@@ -47,7 +44,11 @@ GNU GPLv3super+plus
 
 ## ☪ Islamic Terminal Suite (Dracula Theme)
 
-Part of a collection of minimalist Islamic terminal apps styled in the Dracula dark theme:
+A minimalist suite of Islamic terminal applications built with Python & [Textual](https://textualize.io), styled in the [Dracula](https://draculatheme.com) dark theme.
+
+<p align="center">
+  <img src="islamic-tui-suite.gif" alt="Islamic Terminal Suite Demo" width="85%" />
+</p>
 
 | App | Command | Description |
 | :--- | :--- | :--- |
@@ -55,4 +56,3 @@ Part of a collection of minimalist Islamic terminal apps styled in the Dracula d
 | **[hijri-tui](https://github.com/postsonde/hijri-tui.git)** | `hijri` | Native Hijri calendar with lunar phases, Sunnah fasting & holy days |
 | **[quran-tui](https://github.com/postsonde/quran-tui.git)** | `quran` | Study the Holy Quran with 100+ translations, side-by-side view & bookmarks |
 | **[asma-tui](https://github.com/postsonde/asma-tui.git)** | `asma` | Learn the 99 Names of Allah with flashcards, streak quiz & directory |
-
