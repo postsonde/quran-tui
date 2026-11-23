@@ -41,7 +41,7 @@ quran
 
 ## 📄 License
 
-GBU GPLv3superplusplus
+GNU GPLv3super+plus
 
 ---
 
