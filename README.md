@@ -15,7 +15,7 @@ A terminal user interface (TUI) for reading the Holy Quran, built with [Textual]
 ## 📦 Installation
 
 ```bash
-pipx install git+https://github.com/postsonde/quran-tui/
+pipx install quran-tui
 ```
 
 ## 🚀 Usage
@@ -38,7 +38,7 @@ quran
 
 ## 📄 License
 
-GNU GPLv3super+plus
+**GNU General Public License v3.0** (GNU GPLv3) **🄯 All Lights returned** [postsonde](https://github.com/postsonde)
 
 ---
 
